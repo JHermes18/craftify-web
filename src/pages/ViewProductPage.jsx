@@ -11,10 +11,10 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { featuredProjects } from '@/data/project';
-import Placeholder from '@/assets/img/placeholder/placeholder.png';
-import { Heart } from 'lucide-react';
+import { Heart } from 'lucide-react'
 import { confettiEffects } from '@/utils/confetti';
 import { toast } from 'sonner';
+import Placeholder from '@/assets/img/placeholder/placeholder.png';
 
 export default function ViewProductPage() {
   const { id } = useParams();

@@ -5,7 +5,7 @@ import { Toaster } from '../ui/sonner';
 
 export default function HomeLayout() {
   return (
-    <div>
+    <>
       <Navbar />
       <main className="container mx-auto flex-1 p-4">
         <Outlet />
@@ -13,6 +13,6 @@ export default function HomeLayout() {
       </main>
       <Footer />
       <ScrollRestoration />
-    </div>
+    </>
   );
 }

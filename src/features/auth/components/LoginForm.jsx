@@ -13,8 +13,8 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { loginFormSchema } from '../utils/formValidationSchema';
 import { Link } from 'react-router-dom';
-import { confettiEffects } from '@/utils/confetti';
 import { toast } from 'sonner';
+import { confettiEffects } from '@/utils/confetti';
 
 export default function LoginForm() {
   const form = useForm({

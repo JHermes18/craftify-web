@@ -9,13 +9,13 @@ import {
   FormMessage,
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
+import { Checkbox } from '@/components/ui/checkbox';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { registerFormSchema } from '../utils/formValidationSchema';
 import { Link } from 'react-router-dom';
-import { Checkbox } from '@/components/ui/checkbox';
-import { confettiEffects } from '@/utils/confetti';
 import { toast } from 'sonner';
+import { confettiEffects } from '@/utils/confetti';
 
 export default function RegisterForm() {
   const form = useForm({
